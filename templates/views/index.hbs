@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
+  <style>/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;}</style>
+</head>
+
+<body>
+	<!--Header(start)-->
+	<table id="header" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td>
+							
+
+						</td>
+
+						<td>
+							<font face="Comic sans MS" size="6">
+								<b>Saumya Patel</b>
+							</font>
+						</td>
+
+						<td width="15%">
+							
+						</td>
+
+						<td>
+							<a href="#home" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Home
+									
+								</font>
+							</a>
+						</td>
+<td>
+							<a href="/register" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									work sample 
+								</font>
+							</a>
+						</td>
+						
+						<td>
+							<a href="#about" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									About
+								</font>
+							</a>
+						</td>
+
+						
+
+						
+						<td>
+							<a href="#projects" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Projects 
+								</font>
+							</a>
+						</td>
+
+						
+
+						<td>
+							<a href="#achievements" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Achievements 
+								</font>
+							</a>
+						</td>
+
+						
+
+						<td>
+							<a href="#contact" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Contact
+								</font>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Header(end)-->
+
+	<!--Home(start)-->
+	<table id="home" border="1" width="100%"
+		cellpadding="20" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td align="center" valign="middle">
+							<h3>
+								<font face="Times New Roman"
+									size="6" color="#ffffff">
+									Hello from Saumya Patel ,A Full Stack Developer !
+								</font>
+							</h3>
+
+							<h2>
+								<font face="Verdana" size="6"
+									color="#4CAF50">
+									<!-- Freelance Programmer -->
+								</font>
+							</h2>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Home(end)-->
+
+
+	<!--About(start)-->
+	<table id="about" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="#4CAF50">
+								About Me
+							</font>
+							<hr color="#4CAF50" width="90">
+						</td>
+					</tr>
+
+					<tr>
+						<td width="75%">
+							
+							<img class="someClass" src="data:image/jpeg;base64,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">
+						</td>
+
+						<td width="60%">
+							<font face="Verdana" size="4"
+								color="white">
+								Thanks for your interest, here
+								is a quick story of me and this
+								website.
+								<hr color="black">
+								This is Saumya Patel, a Full Stack Developer. Student of Government Engineering College ,Kannauj.I
+								love to solve programming problems
+								in most efficient ways. Apart from this I am a software developer with working knowledge in Java, HTML,CSS,Bootstrap,JavaScript,Nodejs,ExpressJS, Mongodb and mongoose etc.
+								<hr color="black">
+
+								I do my work mainly in web-development,
+							   and JAVA.Java and Data Structure
+								& Algorithm are my stronger section.
+								Besides these I know  database as well.
+								I have working knowledgw in Node-js , express-js,mongo-db and mongoose as well.
+								<hr color="black">
+
+								This website is basically one of my
+								Web Development project which is
+								built using expressjs ,html,bootstrap,hbs,nodejs.
+								Here one can also register as a employee.
+								I added the link as my work sample.
+
+								Thanks again for reading this.
+
+								<hr color="black">
+								Cheers,
+								<br>
+								<b>SAUMYA PATEL.</b>
+							</font>
+						</td>
+					</tr>
+				</table>
+				<hr color="black">
+				<hr color="black">
+				<hr color="black">
+			</td>
+		</tr>
+	</table>
+	<!--About(end)-->
+
+
+	<!--Projects(start)-->
+	<table id="projects" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="black">
+								Projects
+							</font>
+							<hr color="black" width="90">
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10">
+							<font face="Times New Roman"
+								size="5" color="black">
+								<ul>
+									<li>
+										E COMMERCE WEBSITE
+										
+										</a>
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										DOCTORS APPOINTMENT WEBSITE
+										
+										</a>
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										MYNTRA CLONE
+										
+										</a>
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										DOCTORS APPOINTMENT WEBSITE
+										
+										</a>
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										DIGITAL CLOCK
+										
+										</a>
+									</li>
+
+									
+
+									<li>
+										<hr color="#c2c0c3">
+										EMPLOYEE REGISTRATION SYSTEM System
+										
+										</a>
+									</li>
+
+				<li>
+										<hr color="#c2c0c3">
+										PORTFOLIO
+										
+											 
+										</a>
+									</li>
+							
+								</ul>
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+							</font>
+						</td>
+
+						
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Projects(end)-->
+
+	<!--Achievement(start)-->
+	<table id="achievements" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle">
+							<font face="Verdana" size="7" color="#4CAF50">
+								Achievements
+								<hr color="#4CAF50" width="100">
+							</font>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<font face="Verdana" size="4" color="white">
+								<ul>
+									<li>
+										<b>. Intern at Regal Unlimited.</b>
+										<ul>
+											<li>
+												December,2022 - Present.
+											</li>
+											<li>
+												Working as Web Developer.
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<b>. Intern at 1 stop IIT Guwahati.</b>
+										<ul>
+											<li>
+												April,2022-July, 2022.
+											</li>
+											<li>
+												learn web technologies
+												.
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<b>. Secured Top Rank : in Speaking Effectively course by IIT
+kharagpur(NPTEL).</b>
+										<ul>
+											<li>
+												October,2020.
+											</li>
+											<li>
+												Soft skill course from IIT kharagpur
+											</li>
+                      </ul>
+                      <li>
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<b>. Achieved 1st rank in College forthe year 2019-20 by securing 9.34
+sgpa</b>
+										<ul>
+											<li>
+												2019,2020.
+											</li>
+											<li>
+												In College
+											</li>
+                      </ul>
+                      <li>
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<b>. Continuously remained branch topper from 1 sem to 3rd sem in
+College.
+</b>
+										<ul>
+											<li>
+												2019,2021.
+											</li>
+											<li>
+												In College
+											</li>
+                      </ul>
+                      <li>
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<b>. 
+										Achieved highest marks in Mathematics.
+</b>
+										<ul>
+											<li>
+												2019,2021.
+											</li>
+											<li>
+												In College
+											</li>
+                      </ul>
+                      <hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<b>. 
+                      Silver medalist : in Developing Soft Skills and Personality course by
+IIT Kanpur(NPTEL)
+</b>
+										<ul>
+											<li>
+												2020.
+											</li>
+											<li>
+												from IIT Kanpur
+											</li>
+											<hr color="black">
+											<hr color="black">
+											<hr color="black">
+											<hr color="black">
+											<hr color="black">
+										</ul>
+									</li>
+
+								</ul>
+
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Achievement(end)-->
+
+
+	<!--Contact(start)-->
+	<table id="contact" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="black">
+								Contact
+							</font>
+							<hr color="black" width="90">
+						</td>
+					</tr> 
+
+					<tr>
+						<td align="center" valign="top">
+							<table border="0" width="50%" cellpadding="15"
+								cellspacing="0" align="center" bgcolor="black">
+								<tr>
+									<td width="30%">
+										<hr color="black">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Name
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="text" size="40">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff"> 
+											Email
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="email" size="40">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Number
+										</font>
+									</td> 
+									 <td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="number" size="12">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Message
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff"> 
+											 <textarea rows="5"
+												cols="37">
+											</textarea>
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										
+									</td>
+									<td width="70%">
+										<button type="Submit">
+											<font face="Verdana"
+												size="4" color="black">
+												<b>Submit</b>
+											</font>
+										</button>
+										<hr color="black"> 
+										 <hr color="black">
+									</td>
+								</tr>
+							</table>
+						</td>
+
+					</tr>
+					<tr>
+						<td colspan="2">
+							
+							
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table> 
+
+	<!--Contact(end)-->
+
+
+	<!--Footer1(start)-->
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="13%" valign="top">
+							<b>LinkedIn</b>
+							<a href="https://www.linkedin.com/in/saumya-patel-013239226/" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>GitHub</b>
+							<a href="https://github.com/Saumyaptl" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>HackerRank</b>
+							<a href="https://www.hackerrank.com/saumyapatel168" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>GeeksforGeeks</b>
+							<a href="https://auth.geeksforgeeks.org/user/saumyapatel168" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+		
+
+						
+
+		
+
+						<td width="13%" valign="top">
+							<b>Website</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Footer1(end)-->
+
+
+	<!--Footer2(start)-->
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="80%" valign="top">
+							<font face="Verdana"
+								color="#4CAF50" size="5">
+								©Copyright 2022 by saumyapatel.
+								All rights reserved.
+							</font>
+						</td>
+
+						<td width="10%">
+							<font face="arial" color="black" size="5">
+								<a href="#header" style="text-decoration:none">
+									<font face="Verdana" color="#4CAF50" size="6">
+										<b>TOP</b>
+									</font>
+								</a>
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Footer2(end)-->
+
+</body>
+
+</html>
